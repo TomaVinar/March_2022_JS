@@ -166,46 +166,46 @@ function Car (model, brand, year, maxSpeed, engine,) {
 //     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
 //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
 
-class Cinderella {
-    constructor(name, age, size) {
-        this.name = name
-        this.age = age
-        this.size = size
-    }
-}
-
-let array = [];
-
-const cinderella1 = new Cinderella('Valya', '33', '34');
-const cinderella2 = new Cinderella('Viktoria', '26', '36');
-const cinderella3 = new Cinderella('Olga', '28', '37');
-const cinderella4 = new Cinderella('Nadia', '27', '35');
-const cinderella5 = new Cinderella('Maria', '25', '38');
-const cinderella6 = new Cinderella('Karina', '30', '39');
-const cinderella7 = new Cinderella('Anna', '31', '40');
-const cinderella8 = new Cinderella('Katarina', '22', '33');
-const cinderella9 = new Cinderella('Nastya', '26', '41');
-const cinderella10 = new Cinderella('Lyubov', '32', '42');
-
-array.push(cinderella1, cinderella2, cinderella3, cinderella4, cinderella5, cinderella6, cinderella7, cinderella8, cinderella9, cinderella10);
-
-console.log(array);
-
-class Prince {
-    constructor(name, age, sizeFound) {
-        this.name = name
-        this.age = age
-        this.sizeFound = sizeFound
-    }
-}
-
-let prince = new Prince('Prince', 28, '36');
-
-let couple = function (girls, boy) {
-    for (const girl of girls) {
-        if (boy.sizeFound === girl.size)
-            return girl;
-    }
-}
-
-couple(array, prince);
+// class Cinderella {
+//     constructor(name, age, size) {
+//         this.name = name
+//         this.age = age
+//         this.size = size
+//     }
+// }
+//
+// let array = [];
+//
+// const cinderella1 = new Cinderella('Valya', '33', '34');
+// const cinderella2 = new Cinderella('Viktoria', '26', '36');
+// const cinderella3 = new Cinderella('Olga', '28', '37');
+// const cinderella4 = new Cinderella('Nadia', '27', '35');
+// const cinderella5 = new Cinderella('Maria', '25', '38');
+// const cinderella6 = new Cinderella('Karina', '30', '39');
+// const cinderella7 = new Cinderella('Anna', '31', '40');
+// const cinderella8 = new Cinderella('Katarina', '22', '33');
+// const cinderella9 = new Cinderella('Nastya', '26', '41');
+// const cinderella10 = new Cinderella('Lyubov', '32', '42');
+//
+// array.push(cinderella1, cinderella2, cinderella3, cinderella4, cinderella5, cinderella6, cinderella7, cinderella8, cinderella9, cinderella10);
+//
+// console.log(array);
+//
+// class Prince {
+//     constructor(name, age, sizeFound) {
+//         this.name = name
+//         this.age = age
+//         this.sizeFound = sizeFound
+//     }
+// }
+//
+// let prince = new Prince('Prince', 28, '36');
+//
+// let couple = function (girls, boy) {
+//     for (const girl of girls) {
+//         if (boy.sizeFound === girl.size)
+//             return girl;
+//     }
+// }
+//
+// couple(array, prince);
