@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 40px;
+    justify-content: center;
+}
+
+.post_container {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    background: aliceblue;
+    border-radius: 4px;
+}
+
+.post_title {
+    width: 96%;
+}
+
+.post_body {
+    width: 96%;
+}
+
+.header {
+    background: darkslateblue;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.comment_block {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    background: darkseagreen;
+    border-radius: 4px;
+}
