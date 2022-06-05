@@ -1,0 +1,27 @@
+body {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    row-gap: 80px;
+    column-gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.user_block {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+}
+
+.user_button {
+    width: 80%;
+    height: 48px;
+    border: none;
+    border-radius: 24px;
+    background: cadetblue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
